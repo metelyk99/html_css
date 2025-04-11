@@ -14,6 +14,42 @@
     padding: 0  auto;
 }
 
-.contationer {
-    
+p {
+    color: blue;
+    font-size: 30px;
+    padding: 0  auto;
+}
+
+li {
+    color:  red;
+    font-size: 30px;
+    padding: 0 auto;
+}
+
+h1 {
+    display: inline;
+    color: yellow;
+    font-size: 30px;
+    padding: 10 auto;
+}
+
+h2  {
+    color:  blueviolet;
+    font-size: 20px;
+    padding: 0  cap;
+}
+
+p, h1 {
+       border: 3px solid rgb(100, 200, 50);
+       font-size: 30px;
+       font-weight: 500;
+}
+
+.like {
+    display: flex;
+}
+
+body {
+    text-align: center;
+    background-color: wheat;
 }

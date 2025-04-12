@@ -2,7 +2,7 @@
     font-size: 30px;
     background-color: aqua;
     color: rgb(50, 100, 200);
-    border: 3px solid green
+    border: 3px solid green;
     text-align: centr;
 }
 
@@ -52,4 +52,41 @@ p, h1 {
 body {
     text-align: center;
     background-color: wheat;
+}
+
+nav {
+    text-align: center;
+    width: 700px;
+    font-size: 40px;
+    background-color: rgb(100, 200, 50);
+    border-radius: 40px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    border: 3px  solid rgb(27, 1, 72);
+    padding: 10px;
+    text-align: 10px;
+    text-align: center;
+    font-weight: 200;
+}
+
+thead {
+    background-color: antiquewhite;
+}
+
+.profile-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
 }

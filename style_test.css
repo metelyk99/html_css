@@ -90,3 +90,12 @@ thead {
     display: block;
     margin: auto;
 }
+
+.friends {
+    text-align: center;
+}
+
+.c_list {
+    display: inline-block;
+    text-align: left;
+}

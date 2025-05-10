@@ -99,3 +99,42 @@ thead {
     display: inline-block;
     text-align: left;
 }
+
+
+.link {
+    font-size: 40px;
+    color: blueviolet;
+    border: 4px dotted blue;
+    display: block;
+    padding: 0  auto;
+}
+
+.car_picture {
+    width: 500;
+}
+
+.picture{
+    width: 200;
+}
+
+
+a:link {
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color: rgb(197, 15, 160);
+}
+
+a:focus {
+    outline: 2px dashed rgb(25, 196, 48);
+}

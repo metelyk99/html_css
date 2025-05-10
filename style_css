@@ -16,12 +16,30 @@
 
 .car_picture {
     width: 500;
-
-
 }
 
 .picture{
     width: 200;
+}
 
 
+a:link {
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color: rgb(96, 187, 17);
+}
+
+a:focus {
+    outline: 2px dashed rgb(25, 196, 48);
 }
